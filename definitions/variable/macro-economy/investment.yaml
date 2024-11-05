@@ -9,11 +9,14 @@
     description: Investments in the energy supply system
     unit: billion USD_2010/yr
     tier: 1
-- Investment|Energy Supply|Electricity:
-    description: Investments in electricity generation and supply
-      including storage and transmission-distribution infrastructure
-    unit: billion USD_2010/yr
-    tier: 1
+# Commented out in IAM COMPACT. Investment|Energy Supply|Electricity is instead
+# included under techno-economic/investment-electricity.yaml, along with
+# several subcategories.
+# - Investment|Energy Supply|Electricity:
+#     description: Investments in electricity generation and supply
+#       including storage and transmission-distribution infrastructure
+#     unit: billion USD_2010/yr
+#     tier: 1
 - Investment|Energy Supply|Extraction|{Primary Fossil Fuel}:
     description: Investments for extraction, transportation and conversion of
       {Primary Fossil Fuel}
