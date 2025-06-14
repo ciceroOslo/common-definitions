@@ -1,0 +1,8 @@
+- Climate|GWP|{Level-3 Species}
+    description: Global warming potential of {Level-3 Species} that is used for
+      variables that have units of CO2-equivalents.
+    unit: ""
+    notes: It is not specified what period the GWP is calculated over (i.e.,
+      whether it is GWP100, GWP20 or some other period). Modelers should use
+      this variable to report whichever GWP has been used to calculate
+      CO2-equivalent emissions in other variables.
