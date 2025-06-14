@@ -1,6 +1,25 @@
 - Water Withdrawal:
     definition: Total water withdrawals
     unit: km3/yr
+    check-aggregate: true
+    components:
+      - By water source:
+        - Water Withdrawal|Surface Water
+        - Water Withdrawal|Groundwater
+      - By sector:
+        - Water Withdrawal|Industrial Water
+        - Water Withdrawal|Municipal Water
+        - Water Withdrawal|Irrigation
+        - Water Withdrawal|Electricity
+        - Water Withdrawal|Livestock
+
+- Water Withdrawal|Surface Water:
+    definition: Total water withdrawals of surface water
+    unit: km3/yr
+- Water Withdrawal|Groundwater:
+    definition: Total water withdrawals of groundwater
+    unit: km3/yr
+
 - Water Withdrawal|Industrial Water:
     definition: Water withdrawals for the industrial and manufacturing sector
     unit: km3/yr

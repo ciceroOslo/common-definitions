@@ -1,6 +1,6 @@
 - Price|Production|Iron and Steel|{Iron Commodity}:
     description: Price of {Iron Commodity}
-    unit: USD_2010/Mt
+    unit: USD_2017/Mt
     tier: 2
     weight: Production|Iron and Steel|{Iron Commodity}
     navigate: Price|Industry|Iron and Steel|{Iron Commodity}
@@ -8,7 +8,7 @@
 
 - Price|Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}:
     description: Price of {Non-Metallic Minerals Commodity}
-    unit: USD_2010/Mt
+    unit: USD_2017/Mt
     tier: 2
     weight: Production|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}
     navigate: Price|Industry|Non-Metallic Minerals|{Non-Metallic Minerals Commodity}
@@ -16,7 +16,7 @@
 
 - Price|Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}:
     description: Price of {Non-Ferrous Metals Commodity}
-    unit: USD_2010/Mt
+    unit: USD_2017/Mt
     tier: 2
     weight: Production|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}
     navigate: Price|Industry|Non-Ferrous Metals|{Non-Ferrous Metals Commodity}
@@ -24,7 +24,7 @@
 
 - Price|Production|Chemicals|{Chemicals Commodity}:
     description: Price of {Chemicals Commodity}
-    unit: USD_2010/Mt
+    unit: USD_2017/Mt
     tier: 2
     weight: Production|Chemicals|{Chemicals Commodity}
     navigate: Price|Industry|Chemicals|{Chemicals Commodity}

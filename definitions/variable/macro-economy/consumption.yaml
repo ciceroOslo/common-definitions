@@ -1,6 +1,6 @@
 - Consumption:
     description: Total consumption of all goods, by all consumers in a region
-    unit: billion USD_2010/yr
+    unit: billion USD_2017/yr
     tier: 1
     lower_bound: 0
 - Consumption|{Population Deciles} [Share]:

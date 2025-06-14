@@ -1,7 +1,7 @@
 # trade in goods
 - Trade|Goods [Value]:
     description: Net exports of all goods measured in monetary quantities
-    unit: billion USD_2010/yr
+    unit: billion USD_2017/yr
     tier: 1
     navigate: Trade
     engage: Trade
@@ -18,7 +18,7 @@
 - Trade|Emissions Allowances [Value]:
     description: Net trade (international sales minus purchases) of GHG emission allowances
       measured in monetary quantities
-    unit: billion USD_2010/yr
+    unit: billion USD_2017/yr
     notes: Negative values indicate that purchases (imports) exceed sales (exports).
       At the global level these should add up to zero.
     engage: Trade|Emissions Allowances|Value
