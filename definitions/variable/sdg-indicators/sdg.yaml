@@ -286,7 +286,7 @@
     shape: Final Energy|Industry|Electricity|Share
 - Intensity|Final Energy:
     description: Final Energy intensity
-    unit: EJ/billion USD_2010
+    unit: EJ/billion USD_2017
     sdg: 7
     weight: GDP|PPP
 - GDP|PPP [Growth Rate per capita]:
@@ -394,11 +394,11 @@
 - Policy Cost|GDP Loss w/o Transfers:
     description: GDP loss without international transfers in a policy scenario compared
       to the corresponding baseline (losses should be reported as positive numbers)
-    unit: billion USD_2010/yr
+    unit: billion USD_2017/yr
     sdg: 17
     shape: Policy Cost|GDP Loss|w/o transfers
 - Policy Cost|Transfers:
     description: Net international climate finance transfers (positive for inflow,
       negative for payment)
-    unit: billion USD_2010/yr
+    unit: billion USD_2017/yr
     sdg: 17

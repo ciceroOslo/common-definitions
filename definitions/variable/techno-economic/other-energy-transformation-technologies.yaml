@@ -1,11 +1,11 @@
 - Capital Cost|{Secondary Fuel Level 3}:
     description: Capital cost of a newly installed plant to produce {Secondary Fuel Level 3}
-    unit: USD_2010/kW
+    unit: USD_2017/kW
     skip-region-aggregation: true
 - Capital Cost|{Secondary Fuel Level 3}|*:
     description: Capital cost of a newly installed plant to produce {Secondary Fuel Level 3}
       for a specific technology
-    unit: USD_2010/kW
+    unit: USD_2017/kW
     skip-region-aggregation: true
 - Efficiency|{Secondary Fuel Level 3}:
     description: Conversion efficiency per unit of primary energy of a newly installed

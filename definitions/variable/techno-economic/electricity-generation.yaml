@@ -1,13 +1,13 @@
 - Capital Cost|Electricity|{Electricity Source}:
     description: Capital cost of a newly installed plant to generate electricity
       from {Electricity Source}
-    unit: USD_2010/kW
+    unit: USD_2017/kW
     tier: 2
     skip-region-aggregation: true
 - Capital Cost|Electricity|{Electricity Source}|*:
     description: Capital cost of a newly installed plant to generate electricity
       from {Electricity Source} for a specific technology
-    unit: USD_2010/kW
+    unit: USD_2017/kW
     tier: 2
     skip-region-aggregation: true
 - Efficiency|Electricity|{Electricity Source}:

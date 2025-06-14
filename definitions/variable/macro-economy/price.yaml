@@ -1,6 +1,6 @@
 - Price|Carbon:
     description: Price of carbon (as reported by the model)
-    unit: USD_2010/t CO2
+    unit: USD_2017/t CO2
     region-aggregation:
       - Price|Carbon [Mean]:
           method: mean
@@ -12,11 +12,11 @@
     check-aggregate: false
 - Price|Carbon [Mean]:
     description: Price of carbon (computed as unweighted mean across regions)
-    unit: USD_2010/t CO2
+    unit: USD_2017/t CO2
     skip-region-aggregation: true
 - Price|Carbon [weighted by Emissions|CO2]:
     description: Price of carbon (weighted by regional CO2 emissions)
-    unit: USD_2010/t CO2
+    unit: USD_2017/t CO2
     skip-region-aggregation: true
     notes: Regional CO2 emissions can turn negative at different points in time, which
        can result in counter-intuitive aggregation results when used as weights for
@@ -27,5 +27,5 @@
        of the share of the global energy system the carbon price is applied to.
 - Price|Carbon [weighted by Final Energy]:
     description: Price of carbon (weighted by final energy consumption across regions)
-    unit: USD_2010/t CO2
+    unit: USD_2017/t CO2
     skip-region-aggregation: true
