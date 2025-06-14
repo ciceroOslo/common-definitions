@@ -1,4 +1,4 @@
-- Climate|GWP|{Level-3 Species}
+- Climate|GWP|{Level-3 Species}:
     description: Global warming potential of {Level-3 Species} that is used for
       variables that have units of CO2-equivalents.
     unit: ""
